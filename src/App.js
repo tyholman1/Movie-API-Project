@@ -38,6 +38,7 @@ useEffect(() =>{
         <Route path="/Search" element={<Search disneySearch={getChar}/>} />
         {/* <Route path="/Dashboard" element={<Dashboard search = {search}/>} /> */}
       </Routes>
+      <audio src="./music/Disney-theme.mp3" controls autoPlay></audio>
       </div>
     );
   }
