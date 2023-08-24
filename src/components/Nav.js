@@ -6,8 +6,8 @@ export default function Nav(props) {
       <Link to="/">
         <div>Home</div>
       </Link>
-      <Link to="/Dashboard">
-        <div>Search Results</div>
+      <Link to="/Search">
+        <div>Search</div>
       </Link>
       <Link to="/About">
         <div>ABOUT</div>
