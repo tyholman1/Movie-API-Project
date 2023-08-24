@@ -1,6 +1,13 @@
 import './App.css';
 import { useState, useEffect } from 'react';
 import axios  from 'axios';
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Nav from "./components/Nav";
+import Search from "./components/Search";
+import Dashboard from "./pages/Dashboard"
+
 
 function App() {
 
@@ -23,7 +30,13 @@ function App() {
   
   return (
       <div className="App">
-        <h1>{getMovie}</h1>
+          <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Search/:name" element={<Search />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
+      </Routes>
       </div>
     );
   }
