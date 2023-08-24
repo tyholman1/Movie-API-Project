@@ -13,12 +13,10 @@ import Search from "./pages/Search";
 function App() {
   const [search, setSearch] = useState([])
   const [loading, setLoading] = useState(false)
-  const params = useParams()
-  const name = params.name
-  
+
 const getChar = async () => {
   try {
-    const response = await axios.get(`https://api.disneyapi.dev/character?name=${name}`)
+    const response = await axios.get(`https://api.disneyapi.dev/character?name=Mickey%20Mouse`)
     const data = response.data
     setSearch(data.data[0])
     // console.log(data.data[1].films)
