@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project's Title
+________________________________________________________________________________
+Disney Character Search
 
-## Available Scripts
+Project Description
+________________________________________________________________________________
+This project uses React JS to pull API data from https://disneyapi.dev/ and display it on screen with the character's name and picture. It includes the NavBar, Home page, Search page and About page. The Home page is the main page when you first load the page and it includes the Navbar which is present throughout all of the pages. The Search page is where you can search for a Disney character with name displayed. The About page is to thank you for viewing my page and has a nice Disney Castle gif.
 
-In the project directory, you can run:
+The Approach
+________________________________________________________________________________
+I had to find an API using publicapis.dev to locate which free API I wanted to use. I knew I needed components like Nav and pages like Home page. I also use psuedo code and a wireframe to plot out my React project fairly quickly.
 
-### `npm start`
+Link to Live Page
+________________________________________________________________________________
+Github - https://github.com/tyholman1/Movie-API-Project.git
+Github Live page - https://tyholman1.github.io/Movie-API-Project/
+Netlify - https://64e822c2836cb3261d235aba--monumental-taiyaki-ad080c.netlify.app/
+Disclaimer: My original project was a movie availability search where users could search for a movie and locate where the movie was streaming. However, I realized the API I was using reached the daily free limit with less than 4 searches. So, I could not test my code properly without paying for more limits. Even though the project name is Movie-API-Project, it is a Disney Search project instead.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Installation Instructions
+________________________________________________________________________________
+Click the live link either Netlify or Github.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Unsolved Problems
+________________________________________________________________________________
+I wanted to display the movies the characters were in and maybe even link the movie to another API that can direct you to where it is streaming. I also wanted to incorporate more submenu options and a discussion or forum board. 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Technologies Used
+________________________________________________________________________________
+Axios
+react router dom
+react dom
+imported custom fonts 
