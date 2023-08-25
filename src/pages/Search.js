@@ -28,6 +28,10 @@ const getChar = async () => {
         props.disneySearch(searchData.searchTerm)
     }
 
+    useEffect(() => {
+        // storing input name
+        localStorage.setItem("name", JSON.stringify(searchData));
+      }, [searchData]);
     
     return (
         <div>

@@ -6,13 +6,12 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Nav from "./components/Nav";
 import Search from "./pages/Search";
-// import Dashboard from "./pages/Dashboard"
+
 
 
 
 function App() {
   const [search, setSearch] = useState([])
-  const [loading, setLoading] = useState(false)
 
 const getChar = async () => {
   try {
