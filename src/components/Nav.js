@@ -4,13 +4,13 @@ export default function Nav(props) {
   return (
     <div className="nav">
       <Link to="/">
-        <div>Home</div>
+        <ul>Home</ul>
       </Link>
       <Link to="/Search">
-        <div>Search</div>
+        <ul>Search</ul>
       </Link>
       <Link to="/About">
-        <div>ABOUT</div>
+        <ul>About</ul>
       </Link>
     </div>
   );

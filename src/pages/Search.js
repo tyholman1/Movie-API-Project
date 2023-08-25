@@ -38,9 +38,10 @@ const getChar = async () => {
                 onChange={handleChange} 
                 value={searchData} 
             />
+            
             <input type="submit" value="Submit" onClick={getChar} />
             <img className='disney-photo' src={disney.imageUrl}/>
-            <div>{disney.name}</div>
+            <div className='disney-char'>{disney.name}</div>
             </form>
         </div>
     )

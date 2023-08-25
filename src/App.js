@@ -39,6 +39,7 @@ useEffect(() =>{
         {/* <Route path="/Dashboard" element={<Dashboard search = {search}/>} /> */}
       </Routes>
       <audio src="./music/Disney-theme.mp3" controls autoPlay></audio>
+      <footer className='footer'>Disney</footer>
       </div>
     );
   }
